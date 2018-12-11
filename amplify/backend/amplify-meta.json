@@ -1,0 +1,26 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "pwaample-20181210161754-authRole",
+			"UnauthRoleArn": "arn:aws:iam::382786123233:role/pwaample-20181210161754-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::382786123233:role/pwaample-20181210161754-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "pwaample-20181210161754-deployment",
+			"UnauthRoleName": "pwaample-20181210161754-unauthRole",
+			"StackName": "pwaample-20181210161754",
+			"StackId": "arn:aws:cloudformation:us-east-1:382786123233:stack/pwaample-20181210161754/34ce5e50-fcda-11e8-b9b4-126514929126"
+		}
+	},
+	"auth": {
+		"cognito3f699d56": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"analytics": {
+		"pwasample": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
